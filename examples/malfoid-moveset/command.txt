@@ -1,0 +1,10 @@
+# 1. three sheets: idle.png → basic.png, ultimate.png (both with idle.png as reference)
+# 2. GIFs
+python3 scripts/sprite2gif.py idle.png     -o out/mv_idle     --fps 6.67 --anchor-x mass
+python3 scripts/sprite2gif.py basic.png    -o out/mv_basic    --durations 260,180,120,110,80,80,90,240,100,100,100,110,120,130,160,260
+python3 scripts/sprite2gif.py ultimate.png -o out/mv_ultimate --durations 240,140,140,180,200,110,90,100,320,120,120,130,130,140,160,240
+# 3. the card
+python3 scripts/moveset_card.py -o out/moveset --name "HERO" --stars 1,2,5 \
+  --move "out/mv_idle|IDLE|Unbothered|—|Twirls her wand and waits." \
+  --move "out/mv_basic|BASIC|Emerald Spark|A|Quick flick, small green bolt." \
+  --move "out/mv_ultimate|ULTIMATE|Serpent Surge|↓↘→ + A+B|Summons an emerald serpent."

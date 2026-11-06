@@ -1,0 +1,14 @@
+Pixel-art animation sprite sheet of the character in the reference image doing a cute, bouncy idol dance loop.
+
+CHARACTER FIDELITY
+Keep her identity: pink hair with a short side ponytail and blue-tinted tips, white sun visor with a pink heart, orange-and-pink ribbon antenna bow on her head, golden eyes, big open smile; white-and-pink frilly crop top with a pink bow, pink layered ruffle mini skirt, pink-and-white heart backpack straps, white wristbands with hearts, white knee socks, chunky pink-and-white platform sneakers with hearts. No props in her hands. Chibi game-sprite proportions (about 3 heads tall). FRONT view facing the viewer.
+
+ANIMATION (16 frames, strong clearly different poses, 2 bars of a pop dance)
+1 ready: feet together, hands on hips, smile. 2 small bounce down, knees bent. 3 step right, both arms swing up to the right, hips pop right. 4 point up to the upper right with the right hand, left hand on hip, wink. 5 bounce down. 6 step left, arms swing up to the left, hips pop left. 7 point up to the upper left with the left hand, right hand on hip, wink. 8 bounce down, arms crossed in front. 9 both hands form a big heart shape above her head. 10 lean right with the hand-heart, skirt swings. 11 lean left with the hand-heart, skirt swings the other way. 12 bring the heart down to her chest. 13 little hop, feet off the ground, arms out wide, skirt and ponytail flare up. 14 landing with bent knees. 15 spin halfway is NOT allowed: stay facing front; small shoulder shimmy with hands near her face. 16 back to the ready pose identical to frame 1.
+Hair, ponytail, ribbons and skirt react to every move. Real pose changes with body mechanics, not just moving or rotating a static image. Frame 16 flows smoothly back into frame 1.
+
+PIXEL STYLE
+Crisp 16-bit game pixel art with clearly visible square pixels, 1px dark outline, restrained palette, gentle cel shading. No blur, no anti-aliasing, no gradients, no photorealism.
+
+SHEET LAYOUT
+Exactly 4 columns x 4 rows = 16 equal square cells in a square image. Frames read left to right, then top to bottom. Fixed camera, identical character size, palette and design in every cell; consecutive frames of the SAME character. Feet on the same baseline at about 85% of cell height (except the hop), body centered horizontally. Everything inside its cell with padding; nothing crosses cell borders. One character per cell. No grid lines, borders, frame numbers, text, watermark, floor, cast shadow or scenery. Transparent background.

@@ -1,0 +1,22 @@
+CHARACTER (all three): the character in ref.png: very long straight platinum-blonde hair, pale grey eyes, confident smirk, black school robe with emerald-green lining, grey knit vest, white shirt, green-and-silver striped tie, grey pleated skirt, dark grey knee socks, black loafers, a slim dark wooden wand. Chibi game-sprite proportions (about 3 heads tall), facing RIGHT in side 3/4 view, like a 2D fighting-game sprite.
+
+1) idle.png, referenced_image_paths: ["ref.png"]
+Pixel-art animation sprite sheet: IDLE stance, 16 frames. Weight shifts gently, chest rises and falls, robe hem and long hair sway, she twirls the wand once between her fingers in frames 7-11, a small smug head tilt in frame 12, frame 16 identical to frame 1. Feet planted.
+PIXEL STYLE
+Crisp 16-bit game pixel art with clearly visible square pixels, 1px dark outline, restrained palette, gentle cel shading. No blur, no anti-aliasing, no gradients, no photorealism.
+SHEET LAYOUT
+Exactly 4 columns x 4 rows = 16 equal square cells in a square image. Fixed camera, identical character size, palette and design in every cell. Ground contact points on the same baseline at about 85% of each cell height, body centered horizontally. Keep the whole character and all effects inside each cell with clear padding; nothing touches or crosses cell borders. One character per cell. No grid lines, borders, frame numbers, text, watermark, floor, cast shadow or scenery. Transparent background.
+
+2) basic.png, referenced_image_paths: ["ref.png", "idle.png"]
+Same character and sprite as idle.png. Pixel-art animation sprite sheet: BASIC ATTACK, 16 frames, quick and light. 1-2 idle stance; 3-4 small step forward, wand drawn back; 5 quick flick forward; 6-7 a small emerald-green spark bolt with a short trail shoots forward; 8 hit spark burst (small star of green and silver pixels); 9-11 spark fades; 12-15 wand returns, step back; 16 identical to frame 1. Effects stay small and inside each cell.
+PIXEL STYLE
+Crisp 16-bit game pixel art with clearly visible square pixels, 1px dark outline, restrained palette, gentle cel shading. No blur, no anti-aliasing, no gradients, no photorealism.
+SHEET LAYOUT
+Exactly 4 columns x 4 rows = 16 equal square cells in a square image. Fixed camera, identical character size, palette and design in every cell. Ground contact points on the same baseline at about 85% of each cell height, body centered horizontally. Keep the whole character and all effects inside each cell with clear padding; nothing touches or crosses cell borders. One character per cell. No grid lines, borders, frame numbers, text, watermark, floor, cast shadow or scenery. Transparent background.
+
+3) ultimate.png, referenced_image_paths: ["ref.png", "idle.png"]
+Same character and sprite as idle.png. Pixel-art animation sprite sheet: ULTIMATE / special move, 16 frames, dramatic. 1 idle stance; 2-3 she raises the wand high, green aura flickers around her feet, hair and robe start to lift; 4-5 full power-up: glowing emerald aura, hair floating, robe billowing; 6 she points the wand forward; 7-8 a huge emerald serpent made of magic energy bursts from the wand and coils forward; 9 PEAK: the serpent strikes forward with open jaws, silver sparkles everywhere, biggest frame; 10-12 the serpent breaks into swirling green sparkles; 13-15 aura fades, robe and hair settle; 16 identical to frame 1. The serpent and effects must stay inside each cell: keep the character a bit smaller to leave room.
+PIXEL STYLE
+Crisp 16-bit game pixel art with clearly visible square pixels, 1px dark outline, restrained palette, gentle cel shading. No blur, no anti-aliasing, no gradients, no photorealism.
+SHEET LAYOUT
+Exactly 4 columns x 4 rows = 16 equal square cells in a square image. Fixed camera, identical character size, palette and design in every cell. Ground contact points on the same baseline at about 85% of each cell height, body centered horizontally. Keep the whole character and all effects inside each cell with clear padding; nothing touches or crosses cell borders. One character per cell. No grid lines, borders, frame numbers, text, watermark, floor, cast shadow or scenery. Transparent background.

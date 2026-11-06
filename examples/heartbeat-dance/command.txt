@@ -1,0 +1,1 @@
+python3 scripts/sprite2gif.py examples/heartbeat-dance/sheet_raw.png -o out/heartbeat_dance --fps 10 --anchor-x mass --lift 0,0,0,0,0,0,0,0,0,0,0,0,.08,0,0,0 --durations 140,100,100,160,100,100,160,120,160,110,110,140,100,100,120,140

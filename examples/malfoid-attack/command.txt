@@ -1,0 +1,1 @@
+python3 scripts/sprite2gif.py examples/malfoid-attack/sheet_raw.png -o out/malfoid_attack --durations 200,200,140,120,80,70,70,160,90,90,90,90,100,110,160,200

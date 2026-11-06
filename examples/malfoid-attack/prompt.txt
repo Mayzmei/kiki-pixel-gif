@@ -1,0 +1,19 @@
+Pixel-art animation sprite sheet of the character in the reference image casting an attack spell with her wand.
+
+CHARACTER FIDELITY
+Keep her identity: very long straight platinum-blonde hair, pale grey eyes, confident smirk, black school robe with emerald-green lining, grey knit vest, white shirt, green-and-silver striped tie, grey pleated skirt, dark grey knee socks, black loafers. She holds a slim dark wooden wand. Chibi game-sprite proportions (about 3 heads tall), facing RIGHT in side 3/4 view.
+
+ANIMATION (16 frames)
+1-2 ready stance, wand low, hair and robe swaying slightly; 3-4 anticipation: leans back, wand pulled up behind her shoulder, hair lifts; 5 snaps forward pointing the wand; 6 a bright green spark forms at the wand tip; 7 an emerald-green magic bolt shoots forward with silver sparkles; 8 impact peak: a big green serpent-shaped magic burst coils in front of her; 9-11 the burst breaks into green and silver sparkles that fade; 12-14 recovery, wand lowers, robe and hair settle; 15-16 back to the ready stance identical to frame 1.
+
+PIXEL STYLE
+Crisp 16-bit game pixel art with clearly visible square pixels, 1px dark outline, restrained palette, gentle cel shading. No blur, no anti-aliasing, no gradients, no photorealism. Same pixel scale for character and effects.
+
+SHEET LAYOUT
+Exactly 4 columns x 4 rows = 16 equal square cells in a square image. Frames read left to right, then top to bottom.
+Fixed camera, identical character size, palette and design in every cell. These are consecutive frames of the SAME character, not variations.
+Ground contact points sit on the same baseline at about 85% of each cell height, body centered horizontally in its cell.
+Keep the whole character and all effects inside each cell with clear padding; nothing touches or crosses cell borders. One character per cell.
+No grid lines, borders, frame numbers, text, watermark, floor, cast shadow or scenery.
+Real pose changes with body mechanics, not just moving or rotating a static image. Frame 16 must flow smoothly back into frame 1.
+Transparent background.

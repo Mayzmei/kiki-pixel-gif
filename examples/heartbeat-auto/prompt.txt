@@ -1,0 +1,35 @@
+Turn the character in my uploaded image into a looping pixel-art animation.
+
+CHARACTER FIDELITY
+Study the reference and keep every key feature: hairstyle and hair color, face and eye color, outfit pieces, colors and patterns, markings, accessories, and any weapon or prop. For animals keep the species anatomy (correct number of legs, no human body). Chibi game-sprite proportions. Same design, palette, outline and size in every frame.
+
+CHOOSE THE MOVE
+If I wrote a move on the last line, animate exactly that.
+If the last line is empty, read the reference and pick ONE short signature move that fits this character:
+- a weapon or prop → a move built around it (slash, spell, throw, shot)
+- clear powers or a theme → matching pixel effects (water, fire, lightning, petals, sparkles, hearts)
+- idol / cute / stage outfit → a short dance
+- pet or animal → a species-appropriate idle, walk, play bow or tail wag
+- round mascot or blob → a bouncy jump or happy wiggle
+- otherwise → a confident idle with a small personality gesture
+Do not invent unrelated powers. Facing: side 3/4 view for attacks, walks and runs; front view for dances, idles and jumps.
+
+ANIMATION
+16 frames forming one readable loop: ready pose → anticipation → main motion → peak pose → follow-through → back to ready.
+Give the ready pose and the peak pose more screen time, keep the in-between frames quick.
+Real pose changes with body mechanics, not just moving or rotating a static image. Hair, clothes and effects react to the motion. The last frame flows smoothly back into the first.
+
+PIXEL STYLE
+Crisp 16-bit game pixel art with clearly visible square pixels, 1px dark outline, restrained palette, gentle cel shading. No blur, no anti-aliasing, no gradients, no photorealism.
+
+SHEET LAYOUT
+Deliver ONE still image: exactly 4 columns x 4 rows = 16 equal square cells in a square image.
+Frames read left to right, then top to bottom. Fixed camera, identical character size, palette and design in every cell; consecutive frames of the SAME character, not variations.
+Ground contact points sit on the same baseline at about 85% of each cell height, body centered horizontally in its cell.
+Keep the whole character and all effects inside each cell with clear padding; nothing touches or crosses cell borders. One character per cell.
+No grid lines, borders, frame numbers, text, watermark, floor, cast shadow or scenery.
+Transparent background.
+
+Briefly tell me which move you chose.
+
+Move (optional): 

@@ -1,0 +1,14 @@
+Pixel-art animation sprite sheet of the mascot in the reference image doing a big, bouncy, cartoon HAPPY JUMP with exaggerated squash and stretch. Every frame must be clearly different from its neighbours.
+
+CHARACTER FIDELITY
+Keep the peach-pink round mochi body, bunny ears, green leaf sprout, big shiny eyes, rosy cheeks, stubby arms and feet, orange scarf. Front 3/4 view. Same size and design in every cell.
+
+ANIMATION (16 frames, strong poses)
+1 idle, arms down. 2 idle, body slightly lower (breath). 3 squash: body flattened to about 75% height and 125% width, eyes squeezed, arms pulled in. 4 deeper squash: 65% height, ears pressed down. 5 launch: body stretched tall and thin (130% height), feet just leaving the ground, arms shooting up. 6 rising: about 15% of cell height above the ground line, still stretched, ears trailing down. 7 rising: 25% above ground, body back to round. 8 near apex: 32% above ground, arms wide. 9 APEX: 35% above ground, eyes happy closed arcs, huge open smile, two pink sparkles. 10 falling: 28% above ground, ears flipped up. 11 falling: 12% above ground, body stretching downward, feet reaching for the floor. 12 landing squash: on the ground, body flattened 70% height, little dust puffs at the feet. 13 rebound stretch 115% height. 14 small squash 90% height. 15 settling, nearly idle. 16 idle identical to frame 1.
+The ground line stays at the same height in every cell (about 88% of cell height); in airborne frames there is empty space between feet and ground line. Keep the jump fully inside each cell.
+
+PIXEL STYLE
+Crisp 16-bit game pixel art with clearly visible square pixels, 1px dark outline, restrained palette, gentle cel shading. No blur, no anti-aliasing, no gradients.
+
+SHEET LAYOUT
+Exactly 4 columns x 4 rows = 16 equal square cells in a square image. Frames read left to right, then top to bottom. One mascot per cell, nothing crosses cell borders, generous padding. No grid lines, borders, frame numbers, text, watermark, floor, cast shadow or scenery. Transparent background.

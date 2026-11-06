@@ -1,0 +1,1 @@
+python3 scripts/sticker_pack.py examples/momo-stickers/stickers_a.png examples/momo-stickers/stickers_b.png -o out/momo --names shy,angry,cry,heart,smug,sleepy,hello,shocked
